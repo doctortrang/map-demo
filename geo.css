@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+header {
+    margin: 0;
+    padding: 1rem 2rem;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Open Sans';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-family: 'Montserrat Alternates';
+    font-size: 2rem;
+    padding: 0 1rem 0 0;
+}
+.logo h2 {
+    margin: 0;
+    color: rgb(54, 7, 75);
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(54, 7, 75);
+}
+.logo a:hover {
+    color: rgb(70, 32, 100);
+}
+.search-box input {
+    width: 20rem;
+    padding: 0.7rem;
+    border: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10rem;
+    outline: none;
+    background-image: url(/map-demo/images/search.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px 20px;
+}
+#searching::placeholder {
+    padding-left: 2rem;
+}
+footer {
+    height: 5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans';
+    background-color: rgb(61, 61, 61);
+}
+footer p {
+    padding: 0.5rem;
+}
+iframe {
+    width: 100%;
+    height: 100vh;
+    outline: none;
+}
+.infor {
+    margin: 3rem auto;
+    text-align: center;
+}
+.chart {
+    font-family: 'Open Sans';
+}
+.chart p {
+    margin-left: 10rem;
+    text-align: left;
+    color: rgb(27, 27, 27);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.chart img {
+    width: 1000px;
+}

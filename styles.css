@@ -1,9 +1,15 @@
 body {
     margin: 0;
+    background-image: url(https://i.pinimg.com/originals/88/6a/66/886a665556086868270d117fe35d17bf.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main {
+    margin-bottom: 5rem;
 }
 header {
     margin: 0;
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
     font-family: 'Open Sans';
     display: flex;
@@ -18,7 +24,14 @@ header {
 }
 .logo h2 {
     margin: 0;
-    color: rgb(119, 54, 150);
+    color: rgb(245, 229, 252);
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(245, 229, 252);
+}
+.logo a:hover {
+    color: rgb(204, 176, 224);
 }
 .search-box input {
     width: 20rem;
@@ -35,28 +48,85 @@ header {
 #searching::placeholder {
     padding-left: 2rem;
 }
-.header-tools ul {
-    list-style: none;
+.discover {
+    text-align: center;
+    margin: 0;
+    margin-top: 24rem;
+}
+.discover a{
+    text-decoration: none;
+    font-family: 'Montserrat Alternates';
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: rgb(27, 27, 27);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    transition: background-color ease-out 0.4s 0.2s;
+}
+.discover a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#introduction {
+    margin: 0 auto;
+    width: 60%;
+    padding-left: 2rem;
+    margin-top: 15rem;
+    text-align: justify;
+    font-family: 'Open Sans';
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-evenly;
 }
-.header-tools li {
-    padding: 0 1rem;
+#intro-content {
+    margin: 0 auto;
+    padding: 2rem;
 }
-.header-tools a {
+#introduction img {
+    height: 10rem;
+    width: 10rem;
+}
+#tag {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.tag-space {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 3rem;
+    transition: transform ease-out 0.3s 0.02s;
+}
+.tag-caption {
+    padding: 1rem 0.5rem;
+    text-align: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.tag-caption a{
     text-decoration: none;
-    color: rgb(27, 27, 27);
+    color: black;
 }
-.header-tools a:hover {
-    color: rgb(92, 30, 150);
+.tag-space:hover{
+    transform: scale(1.05);
 }
-.header-tools img {
-    width: 3rem;
-    height: 3rem;
+.tag-space img{
+    width: 20rem;
+    height: 18rem;
+    object-fit: cover;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
-#map {
-    height: 100%;
-    pointer-events: none;
+footer {
+    height: 5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans';
+    background-color: rgb(61, 61, 61);
 }
-  
+footer p {
+    padding: 0.5rem;
+}

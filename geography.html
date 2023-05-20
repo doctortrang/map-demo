@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our World</title>
-    <link rel="stylesheet" href="/map-demo/styles.css">
+    <link rel="stylesheet" href="/map-demo/geo.css">
     <script src="/map-demo/app.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,26 +22,18 @@
     
     </header>
     <main>
-        <div class="discover">
-            <a href="#introduction">Discover Our World</a>
-        </div>
-        <div id="introduction">
-            <img src="/map-demo/images/placeholder.gif" alt="">
-            <div id="intro-content">
-                <p>“Our World” project - a website and mobile app for students and teachers to stimulate students' exploration and exposure to history, 
-                    culture and geography not only in Vietnam but all over the world.</p>
-            </div> 
-        </div>
-        <div id="tag">
-            <div class="tag-space">
-                <div class="tag-caption"><a href="/map-demo/geography.html">Geography</a></div>
-                <img src="/map-demo/images/geomap.jpg" alt="">
+        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=85.51757812500001%2C3.118576216781991%2C115.13671875%2C28.34306490482549&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/>
+        <div class="infor">
+            <div class="chart">
+                <p>World Population Density <small>(people/km<small>2</small>)</small></p>
+                <img src="/map-demo/images/world_population_density.gif" alt="">
             </div>
-            <div class="tag-space">
-                <div class="tag-caption"><a href="#">History</a></div>
-                <img src="/map-demo/images/history.jpg" alt="">
+            <div class="chart">
+                <p>World Population By Region</p>
+                <img src="/map-demo/images/Religions_world_map.gif" alt="">
             </div>
         </div>
+        
     </main>
     <footer>
         <p>(c) Our World 2023
