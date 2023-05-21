@@ -22,8 +22,20 @@
     
     </header>
     <main>
-        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=85.51757812500001%2C3.118576216781991%2C115.13671875%2C28.34306490482549&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/>
-        <div class="infor">
+        <div class="map-tool">
+            <ul>
+                <li id="map-icon"><img src="/map-demo/images/globe.png" alt=""></li>
+                <li id="people-icon"><img src="/map-demo/images/multiple-users-silhouette.png" alt=""></li>
+                <li id="air-icon"><img src="/map-demo/images/wind.png" alt=""></li>
+                <li id="water-icon"><img src="/map-demo/images/sea.png" alt=""></li>
+                <li id="mineral-icon"><img src="/map-demo/images/mineral.png" alt=""></li>
+            </ul>
+        </div>
+        <div id="climate">
+            <img src="/map-demo/images/Temperature.gif" alt="">
+        </div>
+        <iframe id="map" src="https://www.openstreetmap.org/export/embed.html?bbox=85.51757812500001%2C3.118576216781991%2C115.13671875%2C28.34306490482549&amp;layer=mapnik"></iframe><br/>
+        <div id="people" class="people">
             <div class="chart">
                 <p>World Population Density <small>(people/km<small>2</small>)</small></p>
                 <img src="/map-demo/images/world_population_density.gif" alt="">
@@ -36,8 +48,8 @@
         
     </main>
     <footer>
-        <p>(c) Our World 2023
-            By TANTU TEAM
+        <p>(c) Our World 
+            By TANTU 2023
         </p>
     </footer>
 </body>
