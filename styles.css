@@ -7,9 +7,6 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-main {
-    margin-bottom: 5rem;
-}
 header {
     margin: 0;
     padding: 1rem 2rem;
@@ -90,33 +87,40 @@ header {
 .discover a:hover{
     background-color: rgba(0, 0, 0, 0.1);
 }
-#introduction {
-    margin: 0 auto;
-    width: 60%;
-    padding-left: 2rem;
-    margin-top: 16rem;
-    text-align: justify;
-    font-family: 'Open Sans';
+.dashboard {
+    margin-top: 18rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
-#intro-content {
-    margin: 0 auto;
-    padding: 2rem;
+.objective {
+    width: 25%;
+    margin: 2rem;
+    font-family: 'Open Sans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform ease-out 0.3s 0.02s;
 }
-#introduction img {
-    height: 10rem;
-    width: 10rem;
+.objective:hover {
+    transform: scale(1.05);
+}
+.objective img {
+    width: 5rem;
+    height: 5rem;
+    padding-left: 1.5rem;
+}
+.objective p {
+    padding: 1.5rem;
+    text-align: center;
 }
 #tag {
-    margin: 0 auto;
+    margin: 2rem auto;
     width: 70%;
-    margin-top: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    padding-bottom: 5rem;
 }
 .tag-space {
     font-size: 2rem;
@@ -126,9 +130,9 @@ header {
     transition: transform ease-out 0.3s 0.02s;
 }
 .tag-caption {
-    padding: 1rem 0.5rem;
+    padding: 1.5rem 0.5rem;
     text-align: center;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .tag-caption a{
     text-decoration: none;
@@ -138,17 +142,17 @@ header {
     transform: scale(1.05);
 }
 .tag-space img{
-    width: 20rem;
+    width: 18rem;
     height: 18rem;
     object-fit: cover;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 footer {
     height: 3rem;
     color: white;
     text-align: center;
     font-family: 'Open Sans';
-    background-color: rgb(61, 61, 61);
+    background-color: #292358;
 }
 footer p {
     padding-top: 1rem;
