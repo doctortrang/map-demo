@@ -68,10 +68,6 @@ header {
 #searching::placeholder {
     padding-left: 2rem;
 }
-#background {
-    height: 100%;
-    width: 100%;
-}
 .dashboard {
     margin: 5rem auto;
     width: 50%;
