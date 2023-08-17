@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You are in everywhere</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/map-demo/images/location.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/map-demo/ai-connect.css">
+    <script src="/map-demo/app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2><a href="/map-demo/index.html">Our World</a></h2>
+        </div>
+        <div class="search-box">
+            <input type="text" name="searching" id="searching" placeholder="Searching..">
+            <input type="submit" id="searchButton" value="Search">
+        </div>
+    </header>
+    <main>
+        <div class="dashboard">
+            <div class="title">
+                <img src="/map-demo/images/rocket.png" alt="">
+                <h2>AI-power to help you explore everywhere</h2>
+            </div>
+            <a href="#interface"><img id="scroll" src="/map-demo/images/down-arrow.png" alt=""></a>
+        </div>
+        <div class="interface" id="interface">
+            <div class="location">
+                <h2>Choose your destination</h2>
+                <a href="/map-demo/hanoi.html"><img id="icon" src="/map-demo/images/locate.png" alt="icon"></a> 
+                <img src="/map-demo/images/vietnam.png" alt="Vietnam" usemap="#vietnammap">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

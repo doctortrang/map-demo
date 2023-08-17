@@ -1,0 +1,113 @@
+*{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-image: url(/map-demo/images/hoguom.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header {
+    margin: 0;
+    padding: 1rem 2rem;
+    font-family: 'Open Sans';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-family: 'Montserrat Alternates';
+    font-size: 2rem;
+    padding: 0 1rem 0 0;
+}
+.logo h2 {
+    margin: 0;
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(255, 252, 240);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+.logo a:hover {
+    color: rgb(204, 176, 224);
+}
+.search-box{
+    display: flex;
+    gap: 0;
+}
+.search-box #searching {
+    width: 20rem;
+    padding: 0.7rem;
+    border: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10rem 0 0 10rem;
+    outline: none;
+    background-image: url(/map-demo/images/search.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px 20px;
+}
+.search-box #searchButton{
+    background-color: skyblue;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0 10rem 10rem 0;
+    cursor: pointer;
+}
+.search-box #searchButton:hover{
+    background-color: DeepSkyBlue;
+    color: FloralWhite;
+    transition: 0.2s;
+}
+.search-box #searchButton:active{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+#searching::placeholder {
+    padding-left: 2rem;
+}
+.dashboard {
+    margin: 5rem auto;
+    width: 50%;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    text-align: center;
+}
+.dashboard h2 {
+    font-family: "Open Sans";
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.title img {
+    height: 50px;
+    width: 50px;
+    transform: rotate(45deg);
+}
+.dashboard a {
+    text-decoration: none;
+}
+#scroll {
+    height: 80px;
+    width: 80px;
+}
+.interface {
+    top: 600px;
+    margin: 2rem auto;
+    position: relative;
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+    font-size: 1.25rem;
+}
+#illustrated-map {
+    width: 800px;
+}
