@@ -107,3 +107,61 @@ header {
 #illustrated-map {
     width: 800px;
 }
+#hoguom {
+    position: absolute;
+    width: 50%;
+    font-size: 1rem;
+    font-weight: lighter;
+    /* display: block; */
+}
+@keyframes jump {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+#icon-tl {
+    width: 80px;
+    height: 80px;
+    animation-name: jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 200px;
+    left: 550px;
+} 
+#thanglong {
+    background-color: rgba(255, 255, 194,0.9);
+    border-radius: 10px;
+    padding: 0 1.25rem;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    width: 10rem;
+    display: none;
+}
+#icon-hg {
+    width: 80px;
+    height: 80px;
+    animation-name: jump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 650px;
+    left: 850px;
+}
+#hoguom {
+    background-color: rgba(255, 255, 194,0.9);
+    border-radius: 10px;
+    padding: 0 1.25rem;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    position: absolute;
+    top: 550px;
+    left: 900px;
+    width: 10rem;
+    display: none;
+}
