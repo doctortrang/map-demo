@@ -58,4 +58,3 @@ planetIcon.addEventListener("click", function() {
 
 
 
-
