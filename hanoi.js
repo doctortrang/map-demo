@@ -16,3 +16,12 @@ thanglongDisplay.addEventListener("mousemove", function() {
 thanglongDisplay.addEventListener("mouseleave", function() {
     displayTL.style.display = "none";
 })
+const displayVM = document.getElementById("vanmieu")
+const vanmieuDisplay = document.getElementById("icon-vm")
+vanmieuDisplay.addEventListener("mousemove", function() {
+    displayVM.style.display = "block";
+})
+
+vanmieuDisplay.addEventListener("mouseleave", function() {
+    displayVM.style.display = "none";
+})
